@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+
+
+
+.custom_selector p,
+.contact-us-link,
+.service-info {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #c9c9c9;
+  display: none;
+}
+
+.custom_position_overlay {
+  background-color: transparent;
+  left: 0%;
+}
+
+.custom_selector p {
+  font-family: "Saira Condensed", sans-serif;
+
+  color: #fff;
+}
+
+.custom_position_overlay p {
+  font-family: sans-serif;
+}
+
+.custom_selector h1, .custom_selector h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 32px;
+}
+
+.dot-wrapper {
+  right: 1rem;
+  bottom: 2rem;
+}
+
+.uk-light .uk-dotnav > .uk-active > * {
+  background-color: #39f;
+}
+
+.uk-light .uk-dotnav > * > * {
+  background-color: #bababb;
+  border-radius: 0;
+  border: none;
+  width: 40px;
+  height: 4px;
+}
+
+.uk-light .uk-dotnav > * > *:hover {
+  background-color: #39f;
+}
+
+@media screen and (min-width: 765px) {
+  .custom_position_overlay {
+    background-color: #18191bd7;
+    margin-right: 51.5%;
+    margin-top: 18%;
+    width: 60%;
+  }
+
+  .custom_position_overlay div {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  .custom_selector h1,
+  h2 {
+    padding-top: 3rem;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .custom_selector h1, .custom_selector h2
+ {
+    font-size: 55px;
+  }
+
+  .custom_position_overlay {
+    margin-top: 10%;
+  }
+
+  .custom_position_overlay div .service-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+  }
+
+  .custom_position_overlay div .service-info ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .custom_position_overlay div .service-info {
+    display: flex;
+
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .custom_selector p,
+  .contact-us-link {
+    display: block;
+  }
+
+  .dot-wrapper {
+    right: 20%;
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+  .custom_position_overlay {
+    width: auto;
+    margin-top: 8%;
+  }
+}
