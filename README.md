@@ -9,7 +9,7 @@ Rebuild of the website pearl technologies
 - CSS
 - UI KIT
 - AOS
-- Font Awsome
+- Font Awesome
 
 ## Process
 - Built a custom CSS Library
