@@ -1,5 +1,5 @@
 # Pearl
-https://grand-starlight-1a9acb.netlify.app/
+Click to view https://grand-starlight-1a9acb.netlify.app/
 
 Rebuild of the website pearl technologies 
 
