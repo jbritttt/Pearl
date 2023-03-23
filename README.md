@@ -15,7 +15,7 @@ Rebuild of the website pearl technologies
 - Built a custom CSS Library
 - Began writting HTML and CSS for styling and media queries.
 - Created functionality with UI KIT.
-- customised UI KIT slider and created animation affects
+- Customised UI KIT slider and created animation affects
 - Created scroll animations with AOS library
 - Validated HTML
 - Optimised for performance, accessibility and SEO
