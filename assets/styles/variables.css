@@ -1,0 +1,65 @@
+:root {
+  --bg-head-foot: #18191b;
+  --bg-containers: #18191b;
+  --bg-wrapper-containers: #020b0d;
+  --txt-color-primary: #ffff;
+  --txt-color-primary-dark: #999;
+  --txt-color-secondary: #39f;
+  --txt-color-secondary-dark: #6987ab;
+  --bg-secondary-hover: #0e2e4d;
+  --bg-icons-hover: #617530;
+  --font-family-primary: "Saira Condensed";
+  --font-family-secondary: "Open Sans", "Helvetica Neue", Arial, Helvetica,
+    sans-serif;
+  --bg-button-primary: linear-gradient(#9bc23c, #9bc23c);
+  --bg-button-primary-hover: #9bc23c;
+  --bg-button-secondary: #18191b;
+}
+
+.bg-color-head-foot {
+  background-color: var(--bg-head-foot);
+}
+
+.bg-color-container {
+  background-color: var(--bg-containers);
+}
+
+.bg-color-wrapper {
+  background-color: var(--bg-wrapper-containers);
+}
+
+.font-color-primary {
+  color: var(--txt-color-primary);
+}
+
+.font-fam-primary {
+  font-family: var(--font-family-primary);
+}
+
+.font-fam-secondary {
+  font-family: var(--font-family-secondary);
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.font-color-primary-dark {
+  color: var(--txt-color-primary-dark);
+}
+
+.font-color-secondary-dark {
+  color: var(--txt-color-secondary-dark);
+}
+
+.btn-primary {
+  background-image: var(--bg-button-primary);
+  color: var(--txt-color-primary);
+  font-family: var(--font-family-secondary);
+  border: 1px solid var(--bg-button-primary);
+}
+
+.btn-secondary {
+  background-color: var(--bg-button-secondary);
+  color: var(--txt-color-primary);
+  font-family: var(--font-family-secondary);
+  border: 1px solid var(--txt-color-primary);
+}

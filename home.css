@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+@import "assets/styles/layouts.css";
+@import "assets/styles/variables.css";
+@import "assets/styles/header.css";
+@import "assets/styles/footer.css";
+
+body {
+  margin: 0;
+  letter-spacing: 0.03rem;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+section h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.services-section-1 img {
+  width: 70px;
+  height: 70px;
+}
+
+.services-section-1 h2 {
+  font-size: 28px;
+}
+
+.services-section-1 a:hover {
+  color: #fff;
+}
+.services-section-2 img {
+  width: 40px;
+  height: 40px;
+}
+
+.services-section-2 .services {
+  font-size: 55px;
+  color: var(--txt-color-primary-dark);
+  font-family: var(--font-family-primary);
+}
+
+.services-section-2 div h2 {
+  font-size: 22px;
+}
+
+.services-section-2 div img {
+  filter: contrast(0);
+}
+
+.services-section-3 img {
+  filter: contrast(0);
+}
+
+.services-section-3 span {
+  color: #dcdcdc;
+  font-size: 18px;
+}
+
+.services-section-3 h2 {
+  color: #898989;
+  font-size: 28px;
+}
+
+.services-section-3 p {
+  color: #898989;
+}
+
+.services-section-3 div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-section-3 div ul li {
+  color: #dcdcdc;
+}
+
+.services-section-3 div ul li i {
+  color: black;
+  background-color: var(--bg-button-primary-hover);
+  font-size: 9px;
+  border-radius: 100%;
+  padding: 2px;
+  margin-top: 9px;
+}
+
+.services-section-3 div ul li p {
+  color: #dbdbdb;
+  margin: 0;
+  line-height: 30px;
+  margin-left: 1rem;
+}
+
+.services-section-4 {
+  background-image: url("assets/images/content_bg_parallax1.webp"); /* The image used */
+
+  max-height: 1830px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+}
+
+.services-section-4 img {
+  filter: contrast(0);
+}
+
+.services-section-4 img,
+.services-section-3 img {
+  width: 70px;
+  height: 70px;
+}
+
+.services-section-4 h3 {
+  font-size: 55px;
+}
+
+.services-section-4 .trust-inner-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.services-section-4 .trust-inner-wrapper p {
+  font-size: 18px;
+  color: #dcdcdc;
+}
+
+.services-section-4 h4 {
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+.services-section-4 p {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.services-section-4 div .grid-item {
+  padding: 1rem;
+}
+
+.contact-us-section {
+  font-size: 22px;
+  color: var(--txt-color-secondary);
+}
+
+.contact-us-section i {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #232323;
+  color: #fff;
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
+.contact-us-section a {
+  transition: 0.5s;
+}
+
+.contact-us-section a:hover {
+  color: var(--bg-button-primary-hover);
+}
+
+.contact-us-section a:hover i {
+  background-color: var(--bg-button-primary-hover);
+}
+
+@media screen and (min-width: 960px) {
+  .services-section-4 {
+    max-height: inherit;
+  }
+}

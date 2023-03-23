@@ -1,0 +1,42 @@
+footer {
+  color: var(--txt-color-secondary-dark);
+  font-size: 14px;
+}
+
+footer .social-icons .fa {
+  font-size: 20px;
+}
+
+footer h4 {
+  color: var(--txt-color-secondary-dark);
+}
+
+footer div .grid-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer div .grid-item ul li {
+  line-height: 25px;
+}
+
+footer .copy-right-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+footer .copy-right-wrapper .trust-icon {
+  width: 130px;
+  height: 41px;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    padding-top: 3rem;
+  }
+
+  footer img {
+    width: 162px;
+    height: 42px;
+  }
+}

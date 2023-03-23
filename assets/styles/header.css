@@ -1,3 +1,44 @@
+header .contact-num {
+  color: var(--txt-color-secondary-dark);
+  font-family: var(--font-family-secondary);
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 1rem;
+}
 
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
-    
+header nav ul a {
+  color: var(--txt-color-secondary-dark);
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+}
+
+header nav ul li:hover {
+  background-color: var(--bg-secondary-hover);
+}
+
+header nav ul li:hover a {
+  background-color: var(--bg-secondary-hover);
+  color: var(--txt-color-secondary);
+}
+
+nav img {
+  width: 162px;
+  height: 42px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 960px) {
+  nav img {
+    width: 202px;
+    height: 52px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
