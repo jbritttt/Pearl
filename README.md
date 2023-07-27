@@ -1,7 +1,14 @@
 # Pearl
 Click to view https://grand-starlight-1a9acb.netlify.app/
 
-Rebuild of the website pearl technologies 
+Clone of the website pearl technologies https://www.pearltechnologies.com/en/
+
+## The goal
+- To make the page perform as good as possible
+- Build a mini CSS library
+- Build it as close to the original website as possible
+- Use CSS variables
+- Experiment
 
 ## Technologies
 - JavaScript
